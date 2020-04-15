@@ -46,7 +46,7 @@ class _MyHorsePageState extends State<MyHorsePage> {
       ),
       backgroundColor: Color.fromRGBO(61, 70, 85, 1),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.end,
         children: <Widget>[
           Container(
             child: Image.asset('images/horse$walk.png'),
