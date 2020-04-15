@@ -1,2 +1,2 @@
-*.Typefile linguist-detectable=false
-*.dart linguist-detectable=true
+*.Makefile linguist-detectable=false
+*.Dart linguist-detectable=true
