@@ -37,10 +37,12 @@ class _MyHorsePageState extends State<MyHorsePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Move Your Horse',
-        style: TextStyle(
-          fontSize: 30,
-        ),),
+        title: Text(
+          'Move Your Horse',
+          style: TextStyle(
+            fontSize: 30,
+          ),
+        ),
       ),
       backgroundColor: Color.fromRGBO(61, 70, 85, 1),
       body: Column(
@@ -56,7 +58,7 @@ class _MyHorsePageState extends State<MyHorsePage> {
             children: <Widget>[
               Expanded(
                 child: Padding(
-                  padding: const EdgeInsets.all(15.0),
+                  padding: const EdgeInsets.all(80.0),
                   child: FlatButton(
                     padding: EdgeInsets.all(20.0),
                     splashColor: Colors.grey,
@@ -64,8 +66,11 @@ class _MyHorsePageState extends State<MyHorsePage> {
                       borderRadius: BorderRadius.circular(15),
                     ),
                     color: Colors.brown,
+                    textColor: Colors.white,
+                    disabledColor: Colors.black,
+                    disabledTextColor: Colors.grey,
                     child: Text(
-                      'Front',
+                      'Walk',
                       style: TextStyle(
                         fontSize: 30,
                       ),
@@ -75,42 +80,10 @@ class _MyHorsePageState extends State<MyHorsePage> {
                         () {
                           walk = walk + 1;
                           if (walk > 8) {
-                            walk =  1;
-                        
+                            walk = 1;
                           }
                         },
                       );
-                    },
-                  ),
-                ),
-              ),
-              SizedBox(
-                width: 10.0,
-              ),
-              Expanded(
-                child: Padding(
-                  padding: const EdgeInsets.all(15.0),
-                  child: FlatButton(
-                    padding: EdgeInsets.all(20.0),
-                    splashColor: Colors.grey,
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(15),
-                    ),
-                    color: Colors.brown,
-                    child: Text(
-                      'Back',
-                      style: TextStyle(
-                        fontSize: 30,
-                      ),
-                    ),
-                    onPressed: () {
-                      setState(() {
-                      walk = walk - 1;
-                          if (walk < 1) {
-                            walk =  8;
-                        
-                          }
-                      });
                     },
                   ),
                 ),
