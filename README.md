@@ -1,17 +1,39 @@
-# horse
+<h1 align="center">
+    <img width="600" src="assets/flutter.jpeg" />
+</h1>
 
-A new Flutter project.
 
-## Getting Started
+<p align="center">
+Mobile App feita em Flutter
+</p>
 
-This project is a starting point for a Flutter application.
+📌 Horse Walking 
+------------------
+O projeto foi feito com flutter e dart para crear apps com State e practicar Funções e utilizar interação com botões
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<img src="assets/horse.mov" alt="page-home">
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Horse-Walking
+
+🔧 Tecnologias utilizadas:
+------------------
+
+- FLUTTER
+- DART 
+
+
+<img src="assets/dartflutter.png" alt="page-home">
+<img src="assets/images.png" alt="page-home">
+
+
+💬 Fale comigo
+------------------
+[*Entre em contato comigo*](https://www.linkedin.com/in/ivo-baptista-3712144/)
+
+
+
+
+
+
+
+
