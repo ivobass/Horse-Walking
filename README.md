@@ -11,8 +11,8 @@ Mobile App feita em Flutter
 ------------------
 O projeto foi feito com flutter e dart para crear apps com State e practicar Funções e utilizar interação com botões
 
-
-<img src="assets/horse.mov" alt="page-home">
+![Finished App](https://github.com/londonappbrewery/Images/blob/master/8-ball-flutter-gif.gif)
+<img src="assets/horse.gif" alt="page-home">
 
 
 🔧 Tecnologias utilizadas:
