@@ -12,7 +12,7 @@ Mobile App feita em Flutter
 O projeto foi feito com flutter e dart para crear apps com State e practicar Funções e utilizar interação com botões
 
 
-<img src="assets/horse.mov" alt="page-home">
+<img src="assets/horse.gif" alt="page-home">
 
 
 🔧 Tecnologias utilizadas:
